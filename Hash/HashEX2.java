@@ -2,7 +2,7 @@ package Hash;
 
 /*Quoted from Hash_Table_Interviews_In_Java.pdf*/
 class RollingHash {
-    public static int stringHash(String str, int modulus) {
+    public static int stringHash(String str, int modulus) { //str is a given string to be hashed
         int kMult = 997;
 
         int val = 0;
