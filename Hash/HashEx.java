@@ -41,7 +41,7 @@ public class HashEx {
 
         String keyStr = sc.nextLine();
         Hashtable<String, String> ht = new Hashtable<>();
-        
+
         System.out.println();
     }
 }
