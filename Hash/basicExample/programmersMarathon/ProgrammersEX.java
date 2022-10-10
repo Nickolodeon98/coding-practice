@@ -1,4 +1,4 @@
-package Hash.basicExample;
+package Hash.basicExample.programmersMarathon;
 
 import java.util.*;
 /*참가자 명단을 먼저 해시 테이블에 등록한 후, 완주자 명단에서 그 이름을 찾으면 그 참가자 인원수를 1을 빼서

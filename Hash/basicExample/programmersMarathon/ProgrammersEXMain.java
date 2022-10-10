@@ -1,4 +1,4 @@
-package Hash.basicExample;
+package Hash.basicExample.programmersMarathon;
 
 public class ProgrammersEXMain {
     public static void main(String[] args) {
