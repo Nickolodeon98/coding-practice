@@ -1,4 +1,4 @@
-package Hash;
+package Hash.basic;
 
 public class DeletedEntry extends HashEntry{
     private static DeletedEntry entry = null;

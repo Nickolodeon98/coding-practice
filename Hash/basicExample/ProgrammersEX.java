@@ -1,4 +1,4 @@
-package Hash;
+package Hash.basicExample;
 
 import java.util.*;
 /*참가자 명단을 먼저 해시 테이블에 등록한 후, 완주자 명단에서 그 이름을 찾으면 그 참가자 인원수를 1을 빼서
@@ -6,7 +6,7 @@ import java.util.*;
 public class ProgrammersEX {
     public String solution(String[] participant, String[] completion) {
         String answer = "";
-        Hashtable<String, Integer> info = new Hashtable<>(); // HashTable 을 저장하는 변수 info 선언 - 키는 참가자 이름, 값은 인원수
+        HashMap<String, Integer> info = new HashMap<>(); // HashTable 을 저장하는 변수 info 선언 - 키는 참가자 이름, 값은 인원수
 
         /*참가자 명단과 각 참가자의 인원수를 저장하는 Hashtable 구현*/
         for (int i = 0; i < participant.length; i++) { // 참가자 명단을 for loop 으로 탐색
@@ -17,12 +17,12 @@ public class ProgrammersEX {
             }
         }
 
-
         for (int j = 0; j < completion.length; j++) {
             info.put(completion[j], info.get(completion[j]) - 1); // 완주한 사람의 명단을 돌면서 참가자 이름을 찾을 때마다 인원수에서 1씩 소거
         }
 
-        for (Map.Entry ent: info.entrySet()) {
+        for (Map.Entry ent : info.entrySet()) {
+            System.out.println(ent);
             if (Integer.parseInt(ent.getValue().toString()) > 0) { // 완주자 명단을 이용해 인원수를 제했는데 0보다 많은 인원이 있다면 그 참가자가 완주하지 못한 선수
                 answer = ent.getKey().toString();
             }

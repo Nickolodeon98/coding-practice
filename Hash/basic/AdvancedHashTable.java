@@ -1,4 +1,4 @@
-package Hash;
+package Hash.basic;
 
 /*Remove 를 추가하고, initialHash 변수를 통해 반복을 통제함*/
 public class AdvancedHashTable {

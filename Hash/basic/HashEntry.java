@@ -1,4 +1,4 @@
-package Hash;
+package Hash.basic;
 
 /*배열로 구현된 해시 테이블 내의 key-value 원소를 나타내는 클래스*/
 

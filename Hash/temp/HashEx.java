@@ -1,4 +1,4 @@
-package Hash;
+package Hash.temp;
 
 import java.util.Hashtable;
 import java.util.Scanner;

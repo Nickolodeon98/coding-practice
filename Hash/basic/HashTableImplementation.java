@@ -1,4 +1,4 @@
-package Hash;
+package Hash.basic;
 
 /* HashTable(혹은 HashMap) 구현
 * 상수 크기(128)의 배열을 이용하여 구현
@@ -6,6 +6,8 @@ package Hash;
 * 반복문을 빠져나오지 못할 수도 있다는 버그 존재
 * 단순 구현을 위해 삭제는 구현하지 않음
 * */
+
+import Hash.basic.HashEntry;
 
 public class HashTableImplementation {
     private final static int TABLE_SIZE = 128;

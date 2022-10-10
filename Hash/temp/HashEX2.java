@@ -1,4 +1,4 @@
-package Hash;
+package Hash.temp;
 
 /*Quoted from Hash_Table_Interviews_In_Java.pdf*/
 class RollingHash {
