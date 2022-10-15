@@ -1,9 +1,9 @@
 package Hash.advancedExample;
 
-public class SortTwoDArrayMain {
+public class P42579SortTwoDArrayMain {
     public static void main(String[] args) {
         String[][] testArr = {{"pop", "3100"}, {"classic", "1450"}, {"rock", "350"}, {"ballad", "2050"}, {"ccm", "850"}};
-        SortTwoDArray test = new SortTwoDArray();
+        P42579SortTwoDArray test = new P42579SortTwoDArray();
 
         test.sortTwoDArr(testArr);
 

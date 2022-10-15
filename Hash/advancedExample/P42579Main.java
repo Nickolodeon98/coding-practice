@@ -2,10 +2,10 @@ package Hash.advancedExample;
 
 import java.util.Arrays;
 
-public class BestAlbumMain {
+public class P42579Main {
 
     public static void main(String[] args) {
-        BestAlbum test = new BestAlbum();
+        P42579 test = new P42579();
         String[] genresTest = {"classic", "pop", "classic", "classic", "pop", "pop", "classic", "rock", "rock", "rock"};
         int[] playsTest = {500, 600, 150, 800, 2500, 2500, 600, 700, 500, 400};
 

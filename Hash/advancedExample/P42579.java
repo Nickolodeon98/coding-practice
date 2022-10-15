@@ -6,9 +6,7 @@ package Hash.advancedExample;
 
 import java.util.*;
 
-import static java.util.Arrays.asList;
-
-public class BestAlbum {
+public class P42579 {
     private HashMap<String, Integer> musicPreferenceMap; // 각 노래별로 총 합해서 몇 번의 재생 횟수를 갖는지 저장
     private HashMap<Integer, Integer> musicCodeMap; // 각 코드 별로 몇 번의 재생 횟수를 가지고 있는지를 저장 (중복 없음)
     private HashMap<String, Integer> mappingMax; // 각 노래가 어떤 코드에 매핑되었는지를 저장하는 해시맵 (가장 최근 것만, 중복 있음)
@@ -16,7 +14,7 @@ public class BestAlbum {
     private String[] genres;
     private int[] plays;
 
-    public BestAlbum() {
+    public P42579() {
         this.musicPreferenceMap = new HashMap<>();
         this.musicCodeMap = new HashMap<>();
         this.mappingMax = new HashMap<>();
@@ -80,7 +78,7 @@ public class BestAlbum {
             i++;
         }
 
-        SortTwoDArray sortTool = new SortTwoDArray();
+        P42579SortTwoDArray sortTool = new P42579SortTwoDArray();
         sortTool.sortTwoDArr(genresArr);
 
         List<Integer> bestAlbum = new ArrayList<>();

@@ -2,7 +2,7 @@ package Hash.basicExample.baekjoon7785;
 
 import java.util.*;
 
-public class Main {
+public class B7785 {
     public void solution() {
         Scanner sc = new Scanner(System.in);
         int num = Integer.parseInt(sc.nextLine());
@@ -29,7 +29,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        Main test = new Main();
+        B7785 test = new B7785();
         test.solution();
     }
 }

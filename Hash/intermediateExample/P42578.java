@@ -10,11 +10,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class SpyClothes {
+public class P42578 {
     private String[][] clothes;
     private HashMap<String, Integer> clothesCnt;
 
-    public SpyClothes() {
+    public P42578() {
         this.clothesCnt = new HashMap<>();
     }
 

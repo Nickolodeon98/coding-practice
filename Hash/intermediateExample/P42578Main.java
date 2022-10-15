@@ -2,10 +2,10 @@ package Hash.intermediateExample;
 
 import java.util.List;
 
-public class SpyClothesMain {
+public class P42578Main {
     public static void main(String[] args) {
 
-        SpyClothes test = new SpyClothes();
+        P42578 test = new P42578();
         String fName = "C:\\LikeLion\\Algorithms Study\\Algorithms_list\\coding-practice\\Hash\\intermediateExample\\SpyClothesTestCases.txt";
         List<String> testcases = test.readFile(fName);
 

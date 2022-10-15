@@ -1,6 +1,6 @@
 package Hash.advancedExample;
 
-public class SortTwoDArray {
+public class P42579SortTwoDArray {
     public void findMin(int current, String[][] twoDArray) {
         int max = 0;
         int idx = 0;
